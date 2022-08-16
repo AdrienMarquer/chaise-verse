@@ -1,26 +1,9 @@
 /* eslint-disable no-unused-vars */
-import "./App.css";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { useRef, useMemo } from "react";
+import { Canvas, useFrame, useLoader } from "@react-three/fiber";
+import { useRef, useMemo, Suspense } from "react";
 import { OrbitControls, Stars, Bounds, useBounds } from '@react-three/drei'
-
-function Planete(props) {
-  const meshRef = useRef(null);
-  useFrame(() => {
-    if (!meshRef.current) {
-      return;
-    }
-
-    meshRef.current.rotation.x += 0.01;
-    meshRef.current.rotation.y += 0.01;
-  });
-  return (
-    <mesh ref={meshRef} {...props}>
-      <sphereGeometry />
-      <meshPhongMaterial color="white" />
-    </mesh>
-  );
-}
+import Planet from "./Planet"
+import Chaise from "./Chaise"
 
 // This component wraps children in a group with a click handler
 // Clicking any object will refresh and fit bounds
@@ -43,17 +26,19 @@ function App() {
         height: "100vh",
       }}
     >
-      <OrbitControls />
+      <OrbitControls enableZoom={false} />
       <ambientLight />
-      <spotLight position={[10, 15, 10]} angle={0.3}/>
-      <pointLight position={[10, 10, 10]} />
-        <Bounds fit clip observe margin={1.2}>
-          <SelectToZoom>
-            <Planete position={[-1.2, 0, 0]} />
-            <Planete position={[1.2, 0, 0]} />
-          </SelectToZoom>
-        </Bounds>
-        <Stars />
+      <spotLight position={[10, 15, 10]} angle={0.3} />
+      <directionalLight position={[-2, 10, 10]} />
+      <Bounds fit clip observe margin={1.2}>
+        <SelectToZoom>
+          <Suspense fallback={null}>
+            <Chaise position={[0, 0, 0]} />
+            <Planet position={[3, 0, 0]} />
+          </Suspense>
+        </SelectToZoom>
+      </Bounds>
+      <Stars />
     </Canvas>
   );
 }

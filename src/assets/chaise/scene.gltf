@@ -1,0 +1,412 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 17679,
+      "max": [655.0003051757813, 415.2312927246094, 678.3339233398438],
+      "min": [-25.000080108642578, -486.57171630859375, -317.52099609375],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 212148,
+      "componentType": 5126,
+      "count": 17679,
+      "max": [1.0, 0.9999958872795105, 0.9999980330467224],
+      "min": [-1.0, -0.9999905824661255, -0.9999980926513672],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 17679,
+      "max": [1.0, 0.9999598264694214, 1.0, 1.0],
+      "min": [-1.0, -0.9999925494194031, -0.9999974966049194, -1.0],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 17679,
+      "max": [0.999500036239624, 0.9969257116317749],
+      "min": [0.0005000000237487257, 0.0005000000237487257],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 97932,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 424296,
+      "componentType": 5126,
+      "count": 2432,
+      "max": [657.8617553710938, 325.1161193847656, 256.2734680175781],
+      "min": [-27.544830322265625, -331.02655029296875, -9.334548950195313],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 453480,
+      "componentType": 5126,
+      "count": 2432,
+      "max": [1.0, 0.9984087944030762, 0.9984093308448792],
+      "min": [-1.0, -0.9984090328216553, -0.9984086155891418],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 282864,
+      "componentType": 5126,
+      "count": 2432,
+      "max": [0.9959103465080261, 0.9402275085449219, 0.9361953139305115, 1.0],
+      "min": [
+        -0.9959103465080261, -0.9987815022468567, -0.9533026814460754, -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 141432,
+      "componentType": 5126,
+      "count": 2432,
+      "max": [0.9944000244140625, 0.9958999752998352],
+      "min": [0.20640000700950623, 0.6388000249862671],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 391728,
+      "componentType": 5125,
+      "count": 9888,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 482664,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [124.05863952636719, 477.5987548828125, 301.93084716796875],
+      "min": [-659.0488891601563, -316.7409973144531, -301.808837890625],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1269048,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [0.9999999403953552, 0.9999996423721313, 0.9999949932098389],
+      "min": [-0.9999985694885254, -0.999998927116394, -0.9999985694885254],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 321776,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [0.9999743700027466, 0.9999949932098389, 0.9590363502502441, 1.0],
+      "min": [-0.9998788237571716, -0.9999973177909851, -1.0, 1.0],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 160888,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [0.9824427962303162, 0.999500036239624],
+      "min": [0.0005000000237487257, 0.0005000000237487257],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 431280,
+      "componentType": 5125,
+      "count": 379524,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2055432,
+      "componentType": 5126,
+      "count": 15803,
+      "max": [121.89070129394531, 476.4331970214844, 302.3049621582031],
+      "min": [-658.4892578125, -314.951416015625, -301.9342041015625],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2245068,
+      "componentType": 5126,
+      "count": 15803,
+      "max": [0.999970018863678, 0.9999985694885254, 0.9999842047691345],
+      "min": [-0.9999824166297913, -0.9999948143959045, -0.9999192953109741],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1370288,
+      "componentType": 5126,
+      "count": 15803,
+      "max": [0.9993696212768555, 0.9999911189079285, 0.9214312434196472, 1.0],
+      "min": [
+        -0.9998467564582825, -0.9998645186424255, -0.9999982118606567, 1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 685144,
+      "componentType": 5126,
+      "count": 15803,
+      "max": [0.9679073691368103, 0.9704194664955139],
+      "min": [0.0005000000237487257, 0.013643155805766582],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1949376,
+      "componentType": 5125,
+      "count": 87900,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "CGHUGGE (https://sketchfab.com/CGHUGGE)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/ikea-poang-rocking-chair-f74c8e97e8514d8fac6b4860272b1a76",
+      "title": "IKEA_poang-rocking-chair"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2300976,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 811568,
+      "byteOffset": 2300976,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2434704,
+      "byteOffset": 3112544,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1623136,
+      "byteOffset": 5547248,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 7170384,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": ["KHR_materials_pbrSpecularGlossiness"],
+  "extensionsUsed": ["KHR_materials_pbrSpecularGlossiness"],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [1.0, 1.0, 1.0, 1.0],
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.3431783536585366, 0.3431783536585366, 0.3431783536585366
+          ]
+        }
+      },
+      "name": "Material_1"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.025191469456802472, 0.01918064136734795, 0.01918064136734795, 1.0
+          ],
+          "glossinessFactor": 1.0,
+          "specularFactor": [1.0, 1.0, 1.0]
+        }
+      },
+      "name": "default"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [1.0, 1.0, 1.0, 1.0],
+          "glossinessFactor": 0.8126905487804879,
+          "specularFactor": [1.0, 1.0, 1.0]
+        }
+      },
+      "name": "Material_2"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Rectangle002_Material #1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Rectangle002_default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Rectangle005_Material #2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Rectangle005_Material #2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1],
+      "matrix": [
+        0.04018158093094826, 0.0, 0.0, 0.0, 0.0, 8.922103263075578e-18,
+        -0.04018158093094826, 0.0, 0.0, 0.04018158093094826,
+        8.922103263075578e-18, 0.0, 0.0, 0.0, 0.0, 1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [2],
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0,
+        0.0, 1.0
+      ],
+      "name": "76341988a14347458eef5fcd96d4f76d.fbx"
+    },
+    {
+      "children": [3, 7],
+      "name": "RootNode"
+    },
+    {
+      "children": [4],
+      "matrix": [
+        -0.03937000036239327, -1.3291487143435738e-10, -1.5331243563931985e-8,
+        0.0, -1.5314341336346983e-8, 0.0022202085239640943, 0.03930734794723453,
+        0.0, 7.318777312560196e-10, 0.03930734794723752, -0.002220208523963985,
+        0.0, 12.212061882019043, -7.5082902908325195, 1.7340880632400513, 1.0
+      ],
+      "name": "Rectangle002"
+    },
+    {
+      "children": [5, 6],
+      "matrix": [
+        1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0,
+        -3.0517578125e-5, 0.0, 0.0, 1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "Rectangle002_Material #1_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Rectangle002_default_0"
+    },
+    {
+      "children": [8, 9],
+      "matrix": [
+        -1.789260431253044e-8, -0.008296166862348369, -0.0384859785366935, 0.0,
+        1.6637007185823402e-8, 0.038485978536692445, -0.008296166862355877, 0.0,
+        0.03937000036238866, -2.0033820806384063e-8, -1.3985039182542745e-8,
+        0.0, -0.20391845703125, 1.9655380249023438, -10.25161361694336, 1.0
+      ],
+      "name": "Rectangle005"
+    },
+    {
+      "mesh": 2,
+      "name": "Rectangle005_Material #2_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Rectangle005_Material #2_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [0]
+    }
+  ]
+}
