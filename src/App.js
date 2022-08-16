@@ -27,13 +27,13 @@ function App() {
       }}
     >
       <OrbitControls enableZoom={false} />
-      <ambientLight />
-      <spotLight position={[10, 15, 10]} angle={0.3} />
+      {/* <ambientLight /> */}
       <directionalLight position={[-2, 10, 10]} />
       <Bounds fit clip observe margin={1.2}>
         <SelectToZoom>
           <Suspense fallback={null}>
-            <Chaise position={[0, 0, 0]} />
+            <Chaise position={[0, 0, 0]} color="white"/>
+            <Chaise position={[-2, 0, 0]} color="blue"/>
             <Planet position={[3, 0, 0]} />
           </Suspense>
         </SelectToZoom>

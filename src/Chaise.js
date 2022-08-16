@@ -11,17 +11,26 @@ import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
   const { nodes, materials } = useGLTF('/chaise.gltf')
+  const color = props.color
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.04}>
         <group rotation={[Math.PI / 2, 0, 0]}>
           <group position={[12.21, -7.51, 1.73]} rotation={[-1.63, 0, Math.PI]} scale={0.04}>
-            <mesh geometry={nodes['Rectangle002_Material_#1_0'].geometry} material={materials.Material_1}/>
-            <mesh geometry={nodes.Rectangle002_default_0.geometry} material={materials['default']} />
+            <mesh geometry={nodes['Rectangle002_Material_#1_0'].geometry} material={materials.Material_1}>
+              <meshLambertMaterial color={color} />
+            </mesh>
+            <mesh geometry={nodes.Rectangle002_default_0.geometry} material={materials['default']} >
+            <meshLambertMaterial color={color} />
+            </mesh>
           </group>
           <group position={[-0.2, 1.97, -10.25]} rotation={[-0.21, Math.PI / 2, 0]} scale={0.04}>
-            <mesh geometry={nodes['Rectangle005_Material_#2_0'].geometry} material={materials.Material_2} />
-            <mesh geometry={nodes['Rectangle005_Material_#2_0_1'].geometry} material={materials.Material_2} />
+            <mesh geometry={nodes['Rectangle005_Material_#2_0'].geometry} material={materials.Material_2} >
+            <meshLambertMaterial color={color} />
+            </mesh>
+            <mesh geometry={nodes['Rectangle005_Material_#2_0_1'].geometry} material={materials.Material_2} >
+            <meshLambertMaterial color={color} />
+            </mesh>
           </group>
         </group>
       </group>
