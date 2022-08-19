@@ -2,8 +2,9 @@
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { useRef, useMemo, Suspense } from "react";
 import { OrbitControls, Stars, Bounds, useBounds } from '@react-three/drei'
+import { Physics, Debug } from '@react-three/cannon'
 import Planet from "./Planet"
-import Chaise from "./Chaise"
+import Chaise from "./Chaises"
 
 // This component wraps children in a group with a click handler
 // Clicking any object will refresh and fit bounds
@@ -17,30 +18,33 @@ function SelectToZoom({ children }) {
   )
 }
 
-function App() {
+export default function App() {
   return (
     <Canvas
+      camera={{ position: [-2, 12, -2] }}
+      dpr={[1, 2]}
       style={{
         backgroundColor: "#111a21",
         width: "100vw",
         height: "100vh",
       }}
     >
-      <OrbitControls enableZoom={false} />
-      {/* <ambientLight /> */}
-      <directionalLight position={[-2, 10, 10]} />
-      <Bounds fit clip observe margin={1.2}>
-        <SelectToZoom>
-          <Suspense fallback={null}>
-            <Chaise position={[0, 0, 0]} color="white"/>
-            <Chaise position={[-2, 0, 0]} color="blue"/>
-            <Planet position={[3, 0, 0]} />
+      <Suspense fallback={null}>
+            <Physics gravity={[0, 0, 0]}>
+              <Debug scale={1.02} color="black">
+                <Planet />
+              </Debug>
+            </Physics>
           </Suspense>
+      <OrbitControls enableZoom={false} />
+      <ambientLight intensity={0.2} />
+      <spotLight intensity={1.5} position={[15, 15, -20]} castShadow shadow-mapSize={[1024, 1024]} />
+      <spotLight intensity={0.85} position={[-10, 15, 20]} />
+    {/* <Bounds fit clip observe margin={1.2}>
+        <SelectToZoom>
         </SelectToZoom>
-      </Bounds>
+      </Bounds> */}
       <Stars />
     </Canvas>
   );
 }
-
-export default App;
